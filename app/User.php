@@ -14,7 +14,7 @@ class User extends Authenticatable
      *
      * @var array
      */
-    
+    protected $table = 'users';
     
     const USUARIO_VERIFICADO = '1';
     const USUARIO_NO_VERIFICADO = '0';
